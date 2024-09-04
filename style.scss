@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//PIXEL px - ABSOLUTA
+// não vai mudar, sempre o mesmo tamanho em todas as telas
+
+.primeira-sessao{
+    //borda: 3 valores
+    //solide, tipo da borda, cor, espessura
+    border: solid black 5px;
+    // aninhamento, organizar os estilos das tags de acordo com a sua organização hereditaria 
+
+    // apenas a div que está dentro da primeira-sessao vai receber esse estilo:
+    div{
+        //largura
+        width: 200px;
+        //cor de fundo
+        background-color: pink;
+        //altura
+        height: 200px;
+    }
+}
